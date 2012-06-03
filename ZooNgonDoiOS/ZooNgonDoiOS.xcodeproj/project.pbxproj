@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32A3C6391574BE3D00CFA3B6 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AC1B291574BA9A001CD0BA /* libRestKit.a */; };
+		32A3C6411574BE7300CFA3B6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A3C6401574BE7300CFA3B6 /* CFNetwork.framework */; };
+		32A3C64D1574BE8500CFA3B6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A3C64C1574BE8500CFA3B6 /* CoreData.framework */; };
+		32A3C6591574BE9700CFA3B6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A3C6581574BE9700CFA3B6 /* MobileCoreServices.framework */; };
+		32A3C6651574BECF00CFA3B6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A3C6641574BECF00CFA3B6 /* SystemConfiguration.framework */; };
+		32A3C6711574BEE300CFA3B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A3C6701574BEE300CFA3B6 /* QuartzCore.framework */; };
+		32A3C6871574BF1200CFA3B6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A3C6861574BF1200CFA3B6 /* libxml2.dylib */; };
+		32A3C6A01574BFB900CFA3B6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A3C69F1574BFB900CFA3B6 /* Security.framework */; };
+		32A3C7471574C57D00CFA3B6 /* ZooNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A3C7461574C57D00CFA3B6 /* ZooNetwork.m */; };
+		32A3C7721574E49200CFA3B6 /* ZooLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A3C7711574E49200CFA3B6 /* ZooLocationManager.m */; };
+		32AC1AED1574AC34001CD0BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AC1AEC1574AC34001CD0BA /* UIKit.framework */; };
+		32AC1AEF1574AC34001CD0BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AC1AEE1574AC34001CD0BA /* Foundation.framework */; };
+		32AC1AF11574AC34001CD0BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32AC1AF01574AC34001CD0BA /* CoreGraphics.framework */; };
+		32AC1AF71574AC34001CD0BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1AF51574AC34001CD0BA /* InfoPlist.strings */; };
+		32AC1AF91574AC34001CD0BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC1AF81574AC34001CD0BA /* main.m */; };
+		32AC1AFD1574AC34001CD0BA /* ZooAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC1AFC1574AC34001CD0BA /* ZooAppDelegate.m */; };
+		32AC1B001574AC34001CD0BA /* ZooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC1AFF1574AC34001CD0BA /* ZooViewController.m */; };
+		32AC1B031574AC34001CD0BA /* ZooViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1B011574AC34001CD0BA /* ZooViewController_iPhone.xib */; };
+		32AC1B061574AC34001CD0BA /* ZooViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1B041574AC34001CD0BA /* ZooViewController_iPad.xib */; };
+		32BC5AB0157B9C8A00F72DCD /* NearByController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC5AAF157B9C8A00F72DCD /* NearByController.m */; };
+		87E0D135157B4C7500D5ED25 /* ZooLoginScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E0D131157B4C7500D5ED25 /* ZooLoginScreen.m */; };
+		87E0D136157B4C7500D5ED25 /* ZooLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E0D133157B4C7500D5ED25 /* ZooLoginController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32A3C6281574BDF100CFA3B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		32AC1B281574BA9A001CD0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		32AC1B2A1574BA9A001CD0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		32AC1B2C1574BA9A001CD0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		32AC1B2E1574BA9A001CD0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		32AC1B301574BA9A001CD0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32A3C6401574BE7300CFA3B6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		32A3C64C1574BE8500CFA3B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		32A3C6581574BE9700CFA3B6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		32A3C6641574BECF00CFA3B6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		32A3C6701574BEE300CFA3B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		32A3C6861574BF1200CFA3B6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		32A3C69F1574BFB900CFA3B6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		32A3C7451574C57D00CFA3B6 /* ZooNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooNetwork.h; sourceTree = "<group>"; };
+		32A3C7461574C57D00CFA3B6 /* ZooNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooNetwork.m; sourceTree = "<group>"; };
+		32A3C7701574E49200CFA3B6 /* ZooLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooLocationManager.h; sourceTree = "<group>"; };
+		32A3C7711574E49200CFA3B6 /* ZooLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooLocationManager.m; sourceTree = "<group>"; };
+		32AC1AE81574AC34001CD0BA /* ZooNgonDoiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooNgonDoiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AC1AEC1574AC34001CD0BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32AC1AEE1574AC34001CD0BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32AC1AF01574AC34001CD0BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32AC1AF41574AC34001CD0BA /* ZooNgonDoiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZooNgonDoiOS-Info.plist"; sourceTree = "<group>"; };
+		32AC1AF61574AC34001CD0BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32AC1AF81574AC34001CD0BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32AC1AFA1574AC34001CD0BA /* ZooNgonDoiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZooNgonDoiOS-Prefix.pch"; sourceTree = "<group>"; };
+		32AC1AFB1574AC34001CD0BA /* ZooAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZooAppDelegate.h; sourceTree = "<group>"; };
+		32AC1AFC1574AC34001CD0BA /* ZooAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooAppDelegate.m; sourceTree = "<group>"; };
+		32AC1AFE1574AC34001CD0BA /* ZooViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZooViewController.h; sourceTree = "<group>"; };
+		32AC1AFF1574AC34001CD0BA /* ZooViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZooViewController.m; sourceTree = "<group>"; };
+		32AC1B021574AC34001CD0BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZooViewController_iPhone.xib; sourceTree = "<group>"; };
+		32AC1B051574AC34001CD0BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZooViewController_iPad.xib; sourceTree = "<group>"; };
+		32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		32BC5AAE157B9C8A00F72DCD /* NearByController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearByController.h; sourceTree = "<group>"; };
+		32BC5AAF157B9C8A00F72DCD /* NearByController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearByController.m; sourceTree = "<group>"; };
+		87E0D131157B4C7500D5ED25 /* ZooLoginScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooLoginScreen.m; sourceTree = "<group>"; };
+		87E0D132157B4C7500D5ED25 /* ZooLoginScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooLoginScreen.h; sourceTree = "<group>"; };
+		87E0D133157B4C7500D5ED25 /* ZooLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooLoginController.m; sourceTree = "<group>"; };
+		87E0D134157B4C7500D5ED25 /* ZooLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooLoginController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32AC1AE51574AC34001CD0BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A3C6A01574BFB900CFA3B6 /* Security.framework in Frameworks */,
+				32A3C6871574BF1200CFA3B6 /* libxml2.dylib in Frameworks */,
+				32A3C6711574BEE300CFA3B6 /* QuartzCore.framework in Frameworks */,
+				32A3C6651574BECF00CFA3B6 /* SystemConfiguration.framework in Frameworks */,
+				32A3C6591574BE9700CFA3B6 /* MobileCoreServices.framework in Frameworks */,
+				32A3C64D1574BE8500CFA3B6 /* CoreData.framework in Frameworks */,
+				32A3C6411574BE7300CFA3B6 /* CFNetwork.framework in Frameworks */,
+				32A3C6391574BE3D00CFA3B6 /* libRestKit.a in Frameworks */,
+				32AC1AED1574AC34001CD0BA /* UIKit.framework in Frameworks */,
+				32AC1AEF1574AC34001CD0BA /* Foundation.framework in Frameworks */,
+				32AC1AF11574AC34001CD0BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32A3C7441574C52800CFA3B6 /* ZooNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				32A3C7451574C57D00CFA3B6 /* ZooNetwork.h */,
+				32A3C7461574C57D00CFA3B6 /* ZooNetwork.m */,
+			);
+			name = ZooNetwork;
+			sourceTree = "<group>";
+		};
+		32A3C76F1574E47100CFA3B6 /* ZooLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				32A3C7701574E49200CFA3B6 /* ZooLocationManager.h */,
+				32A3C7711574E49200CFA3B6 /* ZooLocationManager.m */,
+			);
+			name = ZooLocationManager;
+			sourceTree = "<group>";
+		};
+		32AC1ADD1574AC34001CD0BA = {
+			isa = PBXGroup;
+			children = (
+				32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */,
+				32AC1AF21574AC34001CD0BA /* ZooNgonDoiOS */,
+				32AC1AEB1574AC34001CD0BA /* Frameworks */,
+				32AC1AE91574AC34001CD0BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32AC1AE91574AC34001CD0BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32AC1AE81574AC34001CD0BA /* ZooNgonDoiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32AC1AEB1574AC34001CD0BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32A3C69F1574BFB900CFA3B6 /* Security.framework */,
+				32A3C6861574BF1200CFA3B6 /* libxml2.dylib */,
+				32A3C6701574BEE300CFA3B6 /* QuartzCore.framework */,
+				32A3C6641574BECF00CFA3B6 /* SystemConfiguration.framework */,
+				32A3C6581574BE9700CFA3B6 /* MobileCoreServices.framework */,
+				32A3C64C1574BE8500CFA3B6 /* CoreData.framework */,
+				32A3C6401574BE7300CFA3B6 /* CFNetwork.framework */,
+				32AC1AEC1574AC34001CD0BA /* UIKit.framework */,
+				32AC1AEE1574AC34001CD0BA /* Foundation.framework */,
+				32AC1AF01574AC34001CD0BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32AC1AF21574AC34001CD0BA /* ZooNgonDoiOS */ = {
+			isa = PBXGroup;
+			children = (
+				87E0D12E157B4AB800D5ED25 /* ZooScreen */,
+				87E0D12D157B4AB400D5ED25 /* ZooBean */,
+				32A3C76F1574E47100CFA3B6 /* ZooLocationManager */,
+				32A3C7441574C52800CFA3B6 /* ZooNetwork */,
+				32AC1AFB1574AC34001CD0BA /* ZooAppDelegate.h */,
+				32AC1AFC1574AC34001CD0BA /* ZooAppDelegate.m */,
+				32AC1AFE1574AC34001CD0BA /* ZooViewController.h */,
+				32AC1AFF1574AC34001CD0BA /* ZooViewController.m */,
+				32AC1B011574AC34001CD0BA /* ZooViewController_iPhone.xib */,
+				32AC1B041574AC34001CD0BA /* ZooViewController_iPad.xib */,
+				32AC1AF31574AC34001CD0BA /* Supporting Files */,
+			);
+			path = ZooNgonDoiOS;
+			sourceTree = "<group>";
+		};
+		32AC1AF31574AC34001CD0BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32AC1AF41574AC34001CD0BA /* ZooNgonDoiOS-Info.plist */,
+				32AC1AF51574AC34001CD0BA /* InfoPlist.strings */,
+				32AC1AF81574AC34001CD0BA /* main.m */,
+				32AC1AFA1574AC34001CD0BA /* ZooNgonDoiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32AC1B1E1574BA9A001CD0BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32AC1B291574BA9A001CD0BA /* libRestKit.a */,
+				32AC1B2B1574BA9A001CD0BA /* RestKitTests.octest */,
+				32AC1B2D1574BA9A001CD0BA /* RestKit.framework */,
+				32AC1B2F1574BA9A001CD0BA /* RestKitFrameworkTests.octest */,
+				32AC1B311574BA9A001CD0BA /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E0D12D157B4AB400D5ED25 /* ZooBean */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ZooBean;
+			sourceTree = "<group>";
+		};
+		87E0D12E157B4AB800D5ED25 /* ZooScreen */ = {
+			isa = PBXGroup;
+			children = (
+				87E0D141157B534D00D5ED25 /* Create_spot */,
+				87E0D140157B52B400D5ED25 /* Top_like */,
+				87E0D13F157B529A00D5ED25 /* Top_new */,
+				87E0D13E157B528A00D5ED25 /* Near_by */,
+				87E0D13D157B519100D5ED25 /* Top_checkin */,
+				87E0D13C157B514900D5ED25 /* Create_food */,
+				87E0D13B157B50E000D5ED25 /* Food_Profile */,
+				87E0D130157B4ADC00D5ED25 /* Login */,
+				87E0D12F157B4AD600D5ED25 /* Home */,
+			);
+			name = ZooScreen;
+			sourceTree = "<group>";
+		};
+		87E0D12F157B4AD600D5ED25 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		87E0D130157B4ADC00D5ED25 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				87E0D131157B4C7500D5ED25 /* ZooLoginScreen.m */,
+				87E0D132157B4C7500D5ED25 /* ZooLoginScreen.h */,
+				87E0D133157B4C7500D5ED25 /* ZooLoginController.m */,
+				87E0D134157B4C7500D5ED25 /* ZooLoginController.h */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		87E0D13B157B50E000D5ED25 /* Food_Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Food_Profile;
+			sourceTree = "<group>";
+		};
+		87E0D13C157B514900D5ED25 /* Create_food */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Create_food;
+			sourceTree = "<group>";
+		};
+		87E0D13D157B519100D5ED25 /* Top_checkin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Top_checkin;
+			sourceTree = "<group>";
+		};
+		87E0D13E157B528A00D5ED25 /* Near_by */ = {
+			isa = PBXGroup;
+			children = (
+				32BC5AAE157B9C8A00F72DCD /* NearByController.h */,
+				32BC5AAF157B9C8A00F72DCD /* NearByController.m */,
+			);
+			name = Near_by;
+			sourceTree = "<group>";
+		};
+		87E0D13F157B529A00D5ED25 /* Top_new */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Top_new;
+			sourceTree = "<group>";
+		};
+		87E0D140157B52B400D5ED25 /* Top_like */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Top_like;
+			sourceTree = "<group>";
+		};
+		87E0D141157B534D00D5ED25 /* Create_spot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Create_spot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32AC1AE71574AC34001CD0BA /* ZooNgonDoiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AC1B091574AC34001CD0BA /* Build configuration list for PBXNativeTarget "ZooNgonDoiOS" */;
+			buildPhases = (
+				32AC1AE41574AC34001CD0BA /* Sources */,
+				32AC1AE51574AC34001CD0BA /* Frameworks */,
+				32AC1AE61574AC34001CD0BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A3C6291574BDF100CFA3B6 /* PBXTargetDependency */,
+			);
+			name = ZooNgonDoiOS;
+			productName = ZooNgonDoiOS;
+			productReference = 32AC1AE81574AC34001CD0BA /* ZooNgonDoiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32AC1ADF1574AC34001CD0BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Personal;
+			};
+			buildConfigurationList = 32AC1AE21574AC34001CD0BA /* Build configuration list for PBXProject "ZooNgonDoiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32AC1ADD1574AC34001CD0BA;
+			productRefGroup = 32AC1AE91574AC34001CD0BA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 32AC1B1E1574BA9A001CD0BA /* Products */;
+					ProjectRef = 32AC1B1D1574BA9A001CD0BA /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				32AC1AE71574AC34001CD0BA /* ZooNgonDoiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		32AC1B291574BA9A001CD0BA /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 32AC1B281574BA9A001CD0BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32AC1B2B1574BA9A001CD0BA /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 32AC1B2A1574BA9A001CD0BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32AC1B2D1574BA9A001CD0BA /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 32AC1B2C1574BA9A001CD0BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32AC1B2F1574BA9A001CD0BA /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 32AC1B2E1574BA9A001CD0BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		32AC1B311574BA9A001CD0BA /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 32AC1B301574BA9A001CD0BA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32AC1AE61574AC34001CD0BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AC1AF71574AC34001CD0BA /* InfoPlist.strings in Resources */,
+				32AC1B031574AC34001CD0BA /* ZooViewController_iPhone.xib in Resources */,
+				32AC1B061574AC34001CD0BA /* ZooViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32AC1AE41574AC34001CD0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AC1AF91574AC34001CD0BA /* main.m in Sources */,
+				32AC1AFD1574AC34001CD0BA /* ZooAppDelegate.m in Sources */,
+				32AC1B001574AC34001CD0BA /* ZooViewController.m in Sources */,
+				32A3C7471574C57D00CFA3B6 /* ZooNetwork.m in Sources */,
+				32A3C7721574E49200CFA3B6 /* ZooLocationManager.m in Sources */,
+				87E0D135157B4C7500D5ED25 /* ZooLoginScreen.m in Sources */,
+				87E0D136157B4C7500D5ED25 /* ZooLoginController.m in Sources */,
+				32BC5AB0157B9C8A00F72DCD /* NearByController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32A3C6291574BDF100CFA3B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 32A3C6281574BDF100CFA3B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32AC1AF51574AC34001CD0BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AC1AF61574AC34001CD0BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32AC1B011574AC34001CD0BA /* ZooViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AC1B021574AC34001CD0BA /* en */,
+			);
+			name = ZooViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		32AC1B041574AC34001CD0BA /* ZooViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AC1B051574AC34001CD0BA /* en */,
+			);
+			name = ZooViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32AC1B071574AC34001CD0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32AC1B081574AC34001CD0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32AC1B0A1574AC34001CD0BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooNgonDoiOS/ZooNgonDoiOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/**";
+				INFOPLIST_FILE = "ZooNgonDoiOS/ZooNgonDoiOS-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32AC1B0B1574AC34001CD0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZooNgonDoiOS/ZooNgonDoiOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"/**";
+				INFOPLIST_FILE = "ZooNgonDoiOS/ZooNgonDoiOS-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32AC1AE21574AC34001CD0BA /* Build configuration list for PBXProject "ZooNgonDoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AC1B071574AC34001CD0BA /* Debug */,
+				32AC1B081574AC34001CD0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AC1B091574AC34001CD0BA /* Build configuration list for PBXNativeTarget "ZooNgonDoiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AC1B0A1574AC34001CD0BA /* Debug */,
+				32AC1B0B1574AC34001CD0BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32AC1ADF1574AC34001CD0BA /* Project object */;
+}

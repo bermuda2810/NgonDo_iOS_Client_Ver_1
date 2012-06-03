@@ -30,6 +30,7 @@
 		32BC5AC0157B9C8A00F72DCD /* TopNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC5ABF157B9C8A00F72DCD /* TopNewController.m */; };
 		87E0D135157B4C7500D5ED25 /* ZooLoginScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E0D131157B4C7500D5ED25 /* ZooLoginScreen.m */; };
 		87E0D136157B4C7500D5ED25 /* ZooLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E0D133157B4C7500D5ED25 /* ZooLoginController.m */; };
+		FDEDA47F157B77450083E72B /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEDA47E157B77450083E72B /* test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 		87E0D132157B4C7500D5ED25 /* ZooLoginScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooLoginScreen.h; sourceTree = "<group>"; };
 		87E0D133157B4C7500D5ED25 /* ZooLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooLoginController.m; sourceTree = "<group>"; };
 		87E0D134157B4C7500D5ED25 /* ZooLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooLoginController.h; sourceTree = "<group>"; };
+		FDEDA47D157B77450083E72B /* test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		FDEDA47E157B77450083E72B /* test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +277,8 @@
 		87E0D13B157B50E000D5ED25 /* Food_Profile */ = {
 			isa = PBXGroup;
 			children = (
+				FDEDA47D157B77450083E72B /* test2.h */,
+				FDEDA47E157B77450083E72B /* test2.m */,
 			);
 			name = Food_Profile;
 			sourceTree = "<group>";
@@ -442,6 +447,7 @@
 				87E0D136157B4C7500D5ED25 /* ZooLoginController.m in Sources */,
 				32BC5AB0157B9C8A00F72DCD /* NearByController.m in Sources */,
 				32BC5AC0157B9C8A00F72DCD /* TopNewController.m in Sources */,
+				FDEDA47F157B77450083E72B /* test2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

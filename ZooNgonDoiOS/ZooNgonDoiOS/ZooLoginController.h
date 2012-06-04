@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ZooLoginScreen.h"
-@interface ZooLoginController : UIViewController<NSURLConnectionDataDelegate>{
+@interface ZooLoginController : UITableViewController<NSURLConnectionDataDelegate>{
     ZooLoginScreen *_loginScreen;
     UIProgressView *_waiting;
 }

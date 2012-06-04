@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZooLoginScreen : UIView{
-    UITextView *_txtUsername;
-    UITextView *_txtPassword;
+@interface ZooLoginScreen : UITableView {
+    UITextField *_txtUsername;
+    UITextField *_txtPassword;
     UIButton *_btnLogin;
 }
 

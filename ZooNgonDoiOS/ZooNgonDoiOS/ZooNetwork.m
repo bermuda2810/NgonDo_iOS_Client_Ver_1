@@ -7,8 +7,11 @@
 //
 
 #import "ZooNetwork.h"
-#import "RKObjectManager.h"
-#import "RKClient.h"
-@implementation ZooNetwork
+#import <RestKit/RestKit.h>
+//#import "RKObjectManager.h"
+//#import "RKClient.h"
+@implementation ZooNetwork{
+    RKObjectManager *obj;
+}
 
 @end

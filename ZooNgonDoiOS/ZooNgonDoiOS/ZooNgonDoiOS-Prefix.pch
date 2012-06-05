@@ -11,4 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+#define MAX_TEXT_LENGTH 12
+#define MIN_TEXT_LENGTH 6
 #endif

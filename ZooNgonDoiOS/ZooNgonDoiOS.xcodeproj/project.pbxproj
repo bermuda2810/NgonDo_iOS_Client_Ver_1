@@ -36,11 +36,15 @@
 		8739E214157DF5F0000DD35A /* CreateSpotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8739E213157DF5F0000DD35A /* CreateSpotViewController.m */; };
 		87E0D135157B4C7500D5ED25 /* ZooLoginScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E0D131157B4C7500D5ED25 /* ZooLoginScreen.m */; };
 		87E0D136157B4C7500D5ED25 /* ZooLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E0D133157B4C7500D5ED25 /* ZooLoginController.m */; };
+<<<<<<< HEAD
 		87F3FC1E157C9FC6008BD92E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F3FC1D157C9FC6008BD92E /* HomeViewController.m */; };
 		87F3FC25157CA068008BD92E /* HomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F3FC24157CA068008BD92E /* HomeScreen.m */; };
 		87F3FC29157CB05F008BD92E /* ZooSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F3FC28157CB05F008BD92E /* ZooSignUpViewController.m */; };
 		87F3FC2C157CB071008BD92E /* ZooSignUpScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F3FC2B157CB070008BD92E /* ZooSignUpScreen.m */; };
 		87F3FC30157CB918008BD92E /* ValidCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F3FC2F157CB918008BD92E /* ValidCore.m */; };
+=======
+		FDEDA47F157B77450083E72B /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEDA47E157B77450083E72B /* test2.m */; };
+>>>>>>> c570e57f3617f11ce1828adf8954895c2b8a8b54
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +138,7 @@
 		87E0D132157B4C7500D5ED25 /* ZooLoginScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooLoginScreen.h; sourceTree = "<group>"; };
 		87E0D133157B4C7500D5ED25 /* ZooLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooLoginController.m; sourceTree = "<group>"; };
 		87E0D134157B4C7500D5ED25 /* ZooLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZooLoginController.h; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		87F3FC1C157C9FC6008BD92E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		87F3FC1D157C9FC6008BD92E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		87F3FC23157CA068008BD92E /* HomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreen.h; sourceTree = "<group>"; };
@@ -144,6 +149,10 @@
 		87F3FC2B157CB070008BD92E /* ZooSignUpScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZooSignUpScreen.m; sourceTree = "<group>"; };
 		87F3FC2E157CB918008BD92E /* ValidCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidCore.h; sourceTree = "<group>"; };
 		87F3FC2F157CB918008BD92E /* ValidCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidCore.m; sourceTree = "<group>"; };
+=======
+		FDEDA47D157B77450083E72B /* test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		FDEDA47E157B77450083E72B /* test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
+>>>>>>> c570e57f3617f11ce1828adf8954895c2b8a8b54
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +334,8 @@
 		87E0D13B157B50E000D5ED25 /* Food_Profile */ = {
 			isa = PBXGroup;
 			children = (
+				FDEDA47D157B77450083E72B /* test2.h */,
+				FDEDA47E157B77450083E72B /* test2.m */,
 			);
 			name = Food_Profile;
 			sourceTree = "<group>";
@@ -520,6 +531,7 @@
 				87E0D136157B4C7500D5ED25 /* ZooLoginController.m in Sources */,
 				32BC5AB0157B9C8A00F72DCD /* NearByController.m in Sources */,
 				32BC5AC0157B9C8A00F72DCD /* TopNewController.m in Sources */,
+<<<<<<< HEAD
 				87F3FC1E157C9FC6008BD92E /* HomeViewController.m in Sources */,
 				87F3FC25157CA068008BD92E /* HomeScreen.m in Sources */,
 				87F3FC29157CB05F008BD92E /* ZooSignUpViewController.m in Sources */,
@@ -530,6 +542,9 @@
 				8739E20E157DF46E000DD35A /* CreateFoodViewController.m in Sources */,
 				8739E211157DF5B6000DD35A /* TopLikeViewController.m in Sources */,
 				8739E214157DF5F0000DD35A /* CreateSpotViewController.m in Sources */,
+=======
+				FDEDA47F157B77450083E72B /* test2.m in Sources */,
+>>>>>>> c570e57f3617f11ce1828adf8954895c2b8a8b54
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

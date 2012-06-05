@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+<<<<<<< HEAD
 @interface ZooLoginScreen : UIView {
     id *_parent;
+=======
+@interface ZooLoginScreen : UITableView {
+>>>>>>> c570e57f3617f11ce1828adf8954895c2b8a8b54
     UITextField *_txtUsername;
     UITextField *_txtPassword;
     UIButton *_btnLogin;

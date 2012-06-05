@@ -8,10 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZooLoginScreen : UIView{
-    UITextView *_txtUsername;
-    UITextView *_txtPassword;
+@interface ZooLoginScreen : UIView {
+    id *_parent;
+    UITextField *_txtUsername;
+    UITextField *_txtPassword;
     UIButton *_btnLogin;
+    UIButton *_btnSignUp;
+    UITextField *_txtPass;
+    
 }
+@property (assign, nonatomic) id *parent;
+@property (assign, nonatomic) UITextField *txtUsername;
+@property (assign, nonatomic) UITextField *txtPassword;
 
+- (void) setTextForUserPass:(NSString *)sUser pass:(NSString *)sPass;
 @end

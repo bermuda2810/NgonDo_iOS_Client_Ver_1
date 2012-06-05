@@ -8,9 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "ZooLoginScreen.h"
+#import "ZooBeanLogin.h"
+
 @interface ZooLoginController : UIViewController<NSURLConnectionDataDelegate>{
-    ZooLoginScreen *_loginScreen;
-    UIProgressView *_waiting;
+    ZooLoginScreen *_zooLoginScreen;
+    ZooBeanLogin *_zooBeanLogin;
+    NSString *_sUsername;
+    UIWindow *_window;
 }
+@property (retain, nonatomic) ZooBeanLogin *zooBeanLogin;
+
+- (void) switchToHomeScreen;
+- (void) switchToSignUpScreen;
+- (void) setToBeanLogin:(NSString *)sUser pass:(NSString *)sPass;
 
 @end

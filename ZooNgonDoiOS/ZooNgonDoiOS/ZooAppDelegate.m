@@ -26,16 +26,19 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    ZooLoginController *zooLoginController = [[ZooLoginController alloc]initWithNibName:@"ZooLoginController" bundle:nil ];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:zooLoginController];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         self.viewController = [[[ZooLoginController alloc] initWithNibName:@"ZooViewController_iPhone" bundle:nil] autorelease];
     } else {
         self.viewController = [[[ZooLoginController alloc] initWithNibName:@"ZooViewController_iPad" bundle:nil] autorelease];
     }
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
